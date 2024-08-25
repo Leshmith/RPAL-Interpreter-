@@ -1,0 +1,6 @@
+let maxNum x y z = 
+(x > y & x > z) -> x |
+(y > x & y > z) -> y |
+(z > x & z > y) -> z | 
+'Two or more numbers are same'
+in Print (maxNum 50 15 423)

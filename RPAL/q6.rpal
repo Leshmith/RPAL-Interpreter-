@@ -1,0 +1,8 @@
+let rec rev (n, x) = n gr 0 -> rev (n/10, (x*10 + n - (n/10)*10)) | x
+	within
+		rec checkPaliRange(a, b) = 
+			b ls a -> '' |
+			rev (a,0) eq a -> (checkPaliRange(a+1,b), print(' '), print(a))|
+				checkPaliRange(a+1,b)						
+in
+checkPaliRange(100, 200)

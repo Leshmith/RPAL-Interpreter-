@@ -1,0 +1,5 @@
+let rec oddOrEven n = 
+	n eq 2 -> 'Even' |
+		n eq 1 -> 'Odd' |
+			n gr 0 -> oddOrEven (n-2) | oddOrEven (-n) 					
+in Print(oddOrEven (15))

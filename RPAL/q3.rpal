@@ -1,0 +1,7 @@
+let fibrange n m = get n m nil 1
+		where rec get n m l t = (m < x) -> l |
+						(x < n) -> (get n m l (t+1)) | 
+							(get n m ( l aug x) (t+1))
+			where x = fib t
+			where rec fib n = ( n eq 0 or n eq 1 ) -> 1 | (fib (n-1) + fib (n-2))
+in Print ( fibrange 4 7)

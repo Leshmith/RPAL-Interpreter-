@@ -1,0 +1,4 @@
+let rec findSum n = n eq 0 ->  
+	0 |
+	n + findSum(n-1)
+in Print(findSum 5)
